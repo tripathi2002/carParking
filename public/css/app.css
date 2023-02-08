@@ -1,0 +1,14 @@
+.accordion-item {
+    background-color: rgb(211 144 155);
+    margin: 5px 10px 0px 10px;
+    padding: 10px 20px;
+    border: 2px solid grey;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.accordion-description {
+    margin: 0px 10px 0px 10px;
+    padding: 10px 20px;
+    border: 1.8px dashed grey;
+    border-radius: 0px 0px 10px 10px;
+}

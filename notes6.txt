@@ -1,0 +1,9 @@
+Creating modules
+• UI: This module gives directives that could be used by other projects such as
+alert, accordion, modal, tab, and tooltip.
+• Search: The search engine we created to filter cars could also be separated as
+an individual library and reused in other places.
+• Parking: This is the parking application itself, with its own resources such as
+views, controllers, directives, filters, and services.
+
+www.ngmodules.org.

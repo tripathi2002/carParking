@@ -1,0 +1,54 @@
+<!-- https://cdnjs.com/ -->
+<!-- Communicating with the backend  | HTTP, REST, and JSON -->
+<!doctype html>
+<html ng-app="parking">
+    <head>
+        <meta charset="utf-8">
+        <title>Parking</title>
+        <!-- Application Libraries -->
+        <script src="js/lib/angular.min.js"></script>
+        <script src="js/lib/angular-route.min.js"></script>
+        <script src="js/lib/angular-animate.js"></script>
+        <script src="js/lib/ui.js"></script>
+        <script src="js/lib/search.js"></script>
+
+        <!-- Application Scripts -->
+        <script src="js/app.js"></script>
+        <script src="js/controllers/loginController.js"></script>
+        <script src="js/controllers/parkingControllers.js"></script>
+        <script src="js/controllers/carController.js"></script>
+        <script src="js/controllers/faqController.js"></script>
+        <!-- <script src="js/directives.js"></script> -->
+        <script src="js/filters.js"></script>
+        <script src="js/services.js"></script>
+        <!-- <script src="js/services/searchService.js"></script> -->
+        <script src="js/services/parkingService.js"></script>
+        <script src="js/services/loginService.js"></script>
+        <script src="js/constants.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/run.js"></script>
+        <script src="js/render.js"></script>
+        <!-- Application CSS -->
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/app_animation.css">
+    </head>
+    <body>
+        
+        <div ng-view></div>
+
+        <accordion>
+            <accordion-item title="MMM-4212">
+                white- 10/19/2022 10:10
+            </accordion-item>
+        
+            <accordion-item title="MMM-3432">
+                black - 10/20/2020 3:30
+            </accordion-item>
+        
+            <accordion-item title="XYZ-3432">
+                blue - 20/30/4040 3:40
+            </accordion-item>
+        </accordion>
+        
+    </body>
+</html>

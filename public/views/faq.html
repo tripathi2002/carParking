@@ -1,0 +1,16 @@
+<!-- <button ng-click="faq = true">Open</button> -->
+<button ng-click="openFAQ()">Open</button>
+<div ng-modal="faq">
+    <div class="header">
+        <h4>FAQ</h4>
+    </div>
+    <div class="body">
+        <p>You are in thr Frequently Asked Questions!</p>
+    </div>
+    <div class="footer">
+        <!-- <button ng-click="faq=false">Close</button> -->
+        <button ng-click="closeFAQ()">Close</button>
+    </div>
+    {{faq}}
+</div>
+
